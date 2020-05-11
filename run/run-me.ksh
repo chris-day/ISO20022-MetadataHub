@@ -100,28 +100,7 @@ print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1800 Business Domains Logic
 print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1900 Business Area BizTerms
 mh-import run -feed "ISO 20022 1900 Business Area BizTerms" -progress -submit -approve
 print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1900 Business Area BizTerms
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 8000 Enhanced Tagging
-mh-import run -feed "ISO 20022 8000 Enhanced Tagging" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 8000 Enhanced Tagging
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 8100 ESMA Business Transactions Logical Model
-mh-import run -feed "ISO 20022 8100 ESMA Business Transactions Logical Model" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 8100 ESMA Business Transactions Logical Model
 print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 Ad-hoc Logical Models
 mh-import run -feed "ISO 20022 Ad-hoc Logical Models" -progress -submit -approve
 print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 Ad-hoc Logical Models
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 Demo Financial Institution
-mh-import run -feed "ISO 20022 Demo Financial Institution" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 Demo Financial Institution
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 MX Messages Enriched Schemas
-mh-import run -feed "ISO 20022 MX Messages Enriched Schemas" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 MX Messages Enriched Schemas
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 MX Messages Enriched Spreadsheets
-mh-import run -feed "ISO 20022 MX Messages Enriched Spreadsheets" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 MX Messages Enriched Spreadsheets
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 WG5 Business Model
-mh-import run -feed "ISO 20022 WG5 Business Model" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 WG5 Business Model
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 WG5 Business Model (TechGroup)
-mh-import run -feed "ISO 20022 WG5 Business Model (TechGroup)" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 WG5 Business Model (TechGroup)
 print "DONE :" $(date +'%Y/%m/%d %T') 
