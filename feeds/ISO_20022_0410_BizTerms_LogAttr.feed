@@ -1,0 +1,8 @@
+Name: ISO 20022 0410 BizTerms LogAttr
+Description: ISO 20022 041 BizTerms LogAttr
+ImportRule: Standard MSLI ENRICH_OBJECT for LogAttr-1
+ImportConnection: 
+Definition: ISO 20022 041 BizTerms LogAttr
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-040-BizTerm-LogAttr.msli
+State: A
+

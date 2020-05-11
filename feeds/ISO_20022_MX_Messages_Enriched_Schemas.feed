@@ -1,0 +1,16 @@
+Name: ISO 20022 MX Messages Enriched Schemas
+Description: Read all the enriched MX messages
+ImportRule: Standard XML Loader
+ImportConnection: 
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022xsd/camt.053.001.06.xsd
+BASE_ELEMENT: /Document/BkToCstmrStmt
+TECHSYSTEM: ISO20022
+TECHGROUP: ISO20022 Message XSD
+DATASET: camt.053.001.06.xsd
+PREPEND_NAMESPACES: prefix
+NIL_HANDLING: keep
+EXTRACT_ANNOTATIONS: True
+IGNORE_ANY_FIELDS: False
+AB_EXPECTED_RECORD_MBYTES_INPUT: 
+State: A
+

@@ -1,0 +1,8 @@
+Name: ISO 20022 0300 Logical Model
+Description: ISO 20022 030 Logical Model
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 030 Logical Model
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-Log*.msli
+State: A
+

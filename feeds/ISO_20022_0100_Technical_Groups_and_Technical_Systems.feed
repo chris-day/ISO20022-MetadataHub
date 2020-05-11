@@ -1,0 +1,9 @@
+Name: ISO 20022 0100 Technical Groups and Technical Systems
+Description: ISO 20022 010 Technical Groups and Technical Systems
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 010 Technical Groups and Technical Systems
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-Tech*.msli
+importRule: 
+State: A
+

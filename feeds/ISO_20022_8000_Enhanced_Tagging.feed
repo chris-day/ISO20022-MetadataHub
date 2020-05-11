@@ -1,0 +1,8 @@
+Name: ISO 20022 8000 Enhanced Tagging
+Description: ISO 20022 Enhanced tagging values from the ISO 20022 RA website which are missing in the current eRepository metamodel
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 8000 Enhanced Tagging
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-enhancedTaggedObject.msli
+State: A
+

@@ -1,0 +1,8 @@
+Name: ISO 20022 0800 Business Process Systems and Applications
+Description: ISO 20022 080 Business Process Systems and Applications
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 080 Business Process Systems and Applications
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BusinessProcess*.msli
+State: A
+

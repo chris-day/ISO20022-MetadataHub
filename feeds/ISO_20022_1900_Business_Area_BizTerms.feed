@@ -1,0 +1,8 @@
+Name: ISO 20022 1900 Business Area BizTerms
+Description: ISO 20022 190 Business Area BizTerms - based upon BAcode and BizTerms assigned to Message Definitions
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 1900 Business Area BizTerms
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BusinessArea-BizTerm*.msli
+State: A
+

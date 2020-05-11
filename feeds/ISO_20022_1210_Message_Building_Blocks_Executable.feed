@@ -1,0 +1,8 @@
+Name: ISO 20022 1210 Message Building Blocks Executable
+Description: ISO 20022 121 Message Building Blocks Executable
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 121 Message Building Blocks Executable
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-08-Executable.msli
+State: A
+

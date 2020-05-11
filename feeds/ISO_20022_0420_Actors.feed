@@ -1,0 +1,8 @@
+Name: ISO 20022 0420 Actors
+Description: ISO 20022 042 Actors
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 042 Actors
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-Actors*.msli
+State: A
+

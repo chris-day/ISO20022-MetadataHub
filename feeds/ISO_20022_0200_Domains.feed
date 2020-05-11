@@ -1,0 +1,8 @@
+Name: ISO 20022 0200 Domains
+Description: ISO 20022 020 Domains
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 020 Domains
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-dd-*.msli
+State: A
+

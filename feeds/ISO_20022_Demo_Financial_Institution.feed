@@ -1,0 +1,7 @@
+Name: ISO 20022 Demo Financial Institution
+Description: ISO 20022 Demo Financial Institution based upon Troux
+ImportRule: Standard MSLI Import
+ImportConnection: 
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/troux-demo-*.msli
+State: A
+

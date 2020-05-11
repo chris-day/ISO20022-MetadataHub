@@ -1,0 +1,8 @@
+Name: ISO 20022 8100 ESMA Business Transactions Logical Model
+Description: ISO 20022 810 ESMA Business Transactions Logical Model E:\abinitio\ab_dev\customers\mhub-assets\iso20022ESMAauth.016.xlsx
+ImportRule: Standard Excel Import
+ImportConnection: 
+Definition: ISO 20022 8100 ESMA Business Transactions Logical Model
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022ESMAauth.016.xlsx
+State: A
+

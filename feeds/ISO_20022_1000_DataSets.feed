@@ -1,0 +1,8 @@
+Name: ISO 20022 1000 DataSets
+Description: ISO 20022 100 DataSets
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 1000 DataSets
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-Data*.msli
+State: A
+

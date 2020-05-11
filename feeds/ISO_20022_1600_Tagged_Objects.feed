@@ -1,0 +1,8 @@
+Name: ISO 20022 1600 Tagged Objects
+Description: ISO 20022 160 Tagged Objects
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 1600 Tagged Objects
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-TaggedObject.msli
+State: A
+

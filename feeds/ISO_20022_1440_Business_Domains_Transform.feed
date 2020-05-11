@@ -1,0 +1,8 @@
+Name: ISO 20022 1440 Business Domains Transform
+Description: ISO 20022 144 Business Domains Transform
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 1440 Business Domains Transform
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BD-Transform.msli
+State: A
+

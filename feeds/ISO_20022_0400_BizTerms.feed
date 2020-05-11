@@ -1,0 +1,8 @@
+Name: ISO 20022 0400 BizTerms
+Description: ISO 20022 040 BizTerms
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 040 BizTerms
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BizTerm*.msli
+State: A
+

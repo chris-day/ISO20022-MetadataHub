@@ -1,0 +1,8 @@
+Name: ISO 20022 1430 Business Domains InputOutputDataSets
+Description: ISO 20022 143 Business Domains InputOutputDataSets
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 1430 Business Domains InputOutputDataSets
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BD-ExecutableInputDataSet.msli ${MHUB_ENV_DATA_ROOT}/iso20022-BD-ExecutableOutputDataSet.msli
+State: A
+

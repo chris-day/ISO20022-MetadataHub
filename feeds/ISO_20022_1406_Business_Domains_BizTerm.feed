@@ -1,0 +1,8 @@
+Name: ISO 20022 1406 Business Domains BizTerm
+Description: ISO 20022 147 Business Domains BizTerm
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 1406 Business Domains BizTerm
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BD-BizTerm.msli
+State: A
+

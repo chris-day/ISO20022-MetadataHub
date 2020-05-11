@@ -1,0 +1,8 @@
+Name: ISO 20022 1500 Tags and TagValue
+Description: ISO 20022 150 Tags and TagValue
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 1500 Tags and TagValue
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-Tag.msli ${MHUB_ENV_DATA_ROOT}/iso20022-TagValue.msli
+State: A
+

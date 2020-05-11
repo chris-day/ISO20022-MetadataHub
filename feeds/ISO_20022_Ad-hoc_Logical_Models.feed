@@ -1,0 +1,8 @@
+Name: ISO 20022 Ad-hoc Logical Models
+Description: ISO 20022 Ad-hoc Logical Models based upon the entities from the main ISO 20022 Model
+ImportRule: Standard Excel Import
+ImportConnection: 
+Definition: ISO 20022 Ad-hoc Logical Models
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ad-hoc-LogicalSubjectAreas.xlsx
+State: A
+

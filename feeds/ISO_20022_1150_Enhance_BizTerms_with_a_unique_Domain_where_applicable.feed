@@ -1,0 +1,8 @@
+Name: ISO 20022 1150 Enhance BizTerms with a unique Domain where applicable
+Description: ISO 20022 115 Enhance BizTerms with a unique Domain where applicable. This takes the message dataelems and bizterms, joins where the bizterm has no domain to determine if we have a unique domain to populate. Note: Some BizTerms have multiple Domains and that relationship is not currently supported.
+ImportRule: Standard MSLI ENRICH_OBJECT for BizTerm-1
+ImportConnection: 
+Definition: ISO 20022 115 Enhance BizTerms with a unique Domain where applicable
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-DomainEnhancedBizTerm.msli
+State: A
+

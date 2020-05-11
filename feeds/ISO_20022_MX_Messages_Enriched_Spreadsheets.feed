@@ -1,0 +1,7 @@
+Name: ISO 20022 MX Messages Enriched Spreadsheets
+Description: Load the SWIFT provided MBL_v2016.0.0.3_MX_Messages_Enriched_Spreadsheets.
+ImportRule: Standard MSLI Import
+ImportConnection: 
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-MX-Enhanced-DataSet.msli ${MHUB_ENV_DATA_ROOT}/iso20022-MX-Enhanced-DataElem.msli
+State: A
+

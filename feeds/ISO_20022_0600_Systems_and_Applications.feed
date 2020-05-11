@@ -1,0 +1,8 @@
+Name: ISO 20022 0600 Systems and Applications
+Description: ISO 20022 060 Systems and Applications
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 060 Systems and Applications
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-System.msli ${MHUB_ENV_DATA_ROOT}/iso20022-Application.msli
+State: A
+

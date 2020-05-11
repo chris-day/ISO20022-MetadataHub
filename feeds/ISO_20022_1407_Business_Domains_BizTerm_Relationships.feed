@@ -1,0 +1,8 @@
+Name: ISO 20022 1407 Business Domains BizTerm Relationships
+Description: ISO 20022 149 Business Domains BizTerm Relationships   ${MHUB_ENV_DATA_ROOT}/iso20022-BD-BizTermXref.msli
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 1407 Business Domains BizTerm Relationships
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BD-BizTermXref.msli
+State: A
+

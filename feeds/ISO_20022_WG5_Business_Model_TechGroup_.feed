@@ -1,0 +1,7 @@
+Name: ISO 20022 WG5 Business Model (TechGroup)
+Description: Experimental WG5 work using the enhancement metamodel and eRepository
+ImportRule: Standard MSLI Import
+ImportConnection: 
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-WG5-TechGroup.msli ${MHUB_ENV_DATA_ROOT}/iso20022-WG5-TechSystem.msli
+State: A
+

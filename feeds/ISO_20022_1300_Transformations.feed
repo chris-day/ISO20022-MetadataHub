@@ -1,0 +1,8 @@
+Name: ISO 20022 1300 Transformations
+Description: ISO 20022 130 Transformations
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 130 Transformations
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-06*.msli
+State: A
+

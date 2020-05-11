@@ -1,0 +1,8 @@
+Name: ISO 20022 1240 Message Building Blocks Transform
+Description: ISO 20022 124 Message Building Blocks Transform
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 124 Message Building Blocks Transform
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-08-Transform.msli
+State: A
+

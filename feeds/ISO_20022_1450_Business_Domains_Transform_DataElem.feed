@@ -1,0 +1,8 @@
+Name: ISO 20022 1450 Business Domains Transform DataElem
+Description: ISO 20022 145 Business Domains Transform DataElem
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 1450 Business Domains Transform DataElem
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BD-TransformDataElem.msli
+State: A
+

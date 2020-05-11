@@ -1,0 +1,18 @@
+name: Enrich BizTerm Golden DataElem Import
+extractor: Proxy
+description: Enrich BizTerm fields GoldDataElemDivision, GoldTechSystem, GoldTechGroup, GoldDataSet, GoldDataElem
+is_published: true
+
+xfr:
+
+  - context: BizTerm-1
+  
+    # Only enrich references to Logical Model, Entities and Attributes
+    field_passthrough: false
+    field_explicit: Division, BizTermGroup, BizTerm, GoldDataElemDivision, GoldTechSystem, GoldTechGroup, GoldDataSet, GoldDataElem
+    
+
+disposition:
+
+    - context: BizTerm-1
+      primary_disposition: ENRICH_OBJECT

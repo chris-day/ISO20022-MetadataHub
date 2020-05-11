@@ -1,0 +1,8 @@
+Name: ISO 20022 0700 Business Roles Terms and Groups
+Description: ISO 20022 070 Buiness Roles Terms and Groups
+ImportRule: Standard MSLI Import
+ImportConnection: 
+Definition: ISO 20022 070 Business Roles Terms and Groups
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BusinessRole-*.msli
+State: A
+
