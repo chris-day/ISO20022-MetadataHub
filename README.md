@@ -48,4 +48,4 @@ The use of the BizTermType BDE (Business Data Element), if you haven't create th
 
 ## Like this ?
 
-Please feel free to [make a donation](https://www.paypal.me/chrisdayai/5)
+Please feel free to [make a donation](https://monzo.me/christopherday5/5.00?d=ISO%2020022)
