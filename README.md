@@ -44,7 +44,7 @@ Witin the run directory is a script called run-me.ksh that will load, submit and
 
 The first load will take a significant period of time. If you want something smaller then I'd suggest the SWIFT4Corporates repository.
 
-The use of the BizTermType BDE (Business Data Element), if you haven't created this, then please do so.
+The use of the BizTermType BDE (Business Data Element), if you haven't create this, then please do so.
 
 ## Like this ?
 
