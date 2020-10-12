@@ -1,4 +1,4 @@
-# ISO20022 for the Ab Initio Metadata>Hub
+# ISO 20022 for the Ab Initio Metadata>Hub
 
 This repository contains the Ab Initio Metadata>Hub ISO 20022 Release derived from the ISO 20022 eRepository.
 
