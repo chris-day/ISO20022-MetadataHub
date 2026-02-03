@@ -1,8 +1,7 @@
-Name: ISO 20022 1700 Golden BizTerm DataElem
+Name: ISO_20022_1700_Golden_BizTerm_DataElem
 Description: ISO 20022 170 Golden BizTerm DataElem
 ImportRule: Enrich BizTerm Golden DataElem Import
 ImportConnection: 
-Definition: ISO 20022 1700 Golden BizTerm DataElem
-INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-GoldenDataElem-BizTerm.msli
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-GoldenDataElem-BizTerm.msli
 State: A
 

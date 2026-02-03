@@ -1,8 +1,7 @@
-Name: ISO 20022 1420 Business Domains Executable
+Name: ISO_20022_1420_Business_Domains_Executable
 Description: ISO 20022 142 Business Domains Executable
 ImportRule: Standard MSLI Import
 ImportConnection: 
-Definition: ISO 20022 1420 Business Domains Executable
-INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BD-Executable.msli
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-BD-Executable.msli
 State: A
 

@@ -1,8 +1,7 @@
-Name: ISO 20022 1250 Message Building Blocks Transform DataElem
+Name: ISO_20022_1250_Message_Building_Blocks_Transform_DataElem
 Description: ISO 20022 125 Message Building Blocks Transform Data Element
 ImportRule: Standard MSLI Import
 ImportConnection: 
-Definition: ISO 20022 125 Message Building Blocks Transform DataElem
-INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-08-TransformDataElem.msli
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-08-TransformDataElem.msli
 State: A
 

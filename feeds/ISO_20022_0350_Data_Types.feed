@@ -1,8 +1,7 @@
-Name: ISO 20022 0350 Data Types
+Name: ISO_20022_0350_Data_Types
 Description: ISO 20022 050 Data Types
 ImportRule: Standard MSLI Import
 ImportConnection: 
-Definition: ISO 20022 035 Data Types
-INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-DT-*.msli
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-DT-*.msli
 State: A
 

@@ -1,8 +1,7 @@
-Name: ISO 20022 1405 Business Domains BizTerm Groups
+Name: ISO_20022_1405_Business_Domains_BizTerm_Groups
 Description: ISO 20022 147 Business Domains BizTerm Groups
 ImportRule: Standard MSLI Import
 ImportConnection: 
-Definition: ISO 20022 1405 Business Domains BizTerm Groups
-INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BD-BizTermGroup.msli
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-BD-BizTermGroup.msli
 State: A
 

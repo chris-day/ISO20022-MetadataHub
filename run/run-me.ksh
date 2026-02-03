@@ -1,106 +1,34 @@
-#!/bin/ksh
-# run-me.ksh created on 2020/05/07 23:45:10
-# 
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0100 Technical Groups and Technical Systems
-mh-import run -feed "ISO 20022 0100 Technical Groups and Technical Systems" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0100 Technical Groups and Technical Systems
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0200 Domains
-mh-import run -feed "ISO 20022 0200 Domains" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0200 Domains
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0300 Logical Model
-mh-import run -feed "ISO 20022 0300 Logical Model" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0300 Logical Model
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0350 Data Types
-mh-import run -feed "ISO 20022 0350 Data Types" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0350 Data Types
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0400 BizTerms
-mh-import run -feed "ISO 20022 0400 BizTerms" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0400 BizTerms
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0410 BizTerms LogAttr
-mh-import run -feed "ISO 20022 0410 BizTerms LogAttr" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0410 BizTerms LogAttr
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0420 Actors
-mh-import run -feed "ISO 20022 0420 Actors" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0420 Actors
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0600 Systems and Applications
-mh-import run -feed "ISO 20022 0600 Systems and Applications" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0600 Systems and Applications
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0700 Business Roles Terms and Groups
-mh-import run -feed "ISO 20022 0700 Business Roles Terms and Groups" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0700 Business Roles Terms and Groups
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0800 Business Process Systems and Applications
-mh-import run -feed "ISO 20022 0800 Business Process Systems and Applications" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0800 Business Process Systems and Applications
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0900 Business Transactions Logical Model
-mh-import run -feed "ISO 20022 0900 Business Transactions Logical Model" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 0900 Business Transactions Logical Model
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1000 DataSets
-mh-import run -feed "ISO 20022 1000 DataSets" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1000 DataSets
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1100 Message Objects
-mh-import run -feed "ISO 20022 1100 Message Objects" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1100 Message Objects
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1150 Enhance BizTerms with a unique Domain where applicable
-mh-import run -feed "ISO 20022 1150 Enhance BizTerms with a unique Domain where applicable" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1150 Enhance BizTerms with a unique Domain where applicable
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1210 Message Building Blocks Executable
-mh-import run -feed "ISO 20022 1210 Message Building Blocks Executable" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1210 Message Building Blocks Executable
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1220 Message Building Blocks InputOutputDatasets
-mh-import run -feed "ISO 20022 1220 Message Building Blocks InputOutputDatasets" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1220 Message Building Blocks InputOutputDatasets
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1240 Message Building Blocks Transform
-mh-import run -feed "ISO 20022 1240 Message Building Blocks Transform" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1240 Message Building Blocks Transform
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1250 Message Building Blocks Transform DataElem
-mh-import run -feed "ISO 20022 1250 Message Building Blocks Transform DataElem" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1250 Message Building Blocks Transform DataElem
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1300 Transformations
-mh-import run -feed "ISO 20022 1300 Transformations" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1300 Transformations
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1400 Business Domains Technical Groups and Technical Systems
-mh-import run -feed "ISO 20022 1400 Business Domains Technical Groups and Technical Systems" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1400 Business Domains Technical Groups and Technical Systems
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1405 Business Domains BizTerm Groups
-mh-import run -feed "ISO 20022 1405 Business Domains BizTerm Groups" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1405 Business Domains BizTerm Groups
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1406 Business Domains BizTerm
-mh-import run -feed "ISO 20022 1406 Business Domains BizTerm" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1406 Business Domains BizTerm
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1407 Business Domains BizTerm Relationships
-mh-import run -feed "ISO 20022 1407 Business Domains BizTerm Relationships" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1407 Business Domains BizTerm Relationships
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1410 Business Domains DataSets and DataElems
-mh-import run -feed "ISO 20022 1410 Business Domains DataSets and DataElems" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1410 Business Domains DataSets and DataElems
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1420 Business Domains Executable
-mh-import run -feed "ISO 20022 1420 Business Domains Executable" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1420 Business Domains Executable
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1430 Business Domains InputOutputDataSets
-mh-import run -feed "ISO 20022 1430 Business Domains InputOutputDataSets" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1430 Business Domains InputOutputDataSets
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1440 Business Domains Transform
-mh-import run -feed "ISO 20022 1440 Business Domains Transform" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1440 Business Domains Transform
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1450 Business Domains Transform DataElem
-mh-import run -feed "ISO 20022 1450 Business Domains Transform DataElem" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1450 Business Domains Transform DataElem
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1500 Tags and TagValue
-mh-import run -feed "ISO 20022 1500 Tags and TagValue" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1500 Tags and TagValue
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1600 Tagged Objects
-mh-import run -feed "ISO 20022 1600 Tagged Objects" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1600 Tagged Objects
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1700 Golden BizTerm DataElem
-mh-import run -feed "ISO 20022 1700 Golden BizTerm DataElem" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1700 Golden BizTerm DataElem
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1800 Business Domains Logical Models
-mh-import run -feed "ISO 20022 1800 Business Domains Logical Models" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1800 Business Domains Logical Models
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1900 Business Area BizTerms
-mh-import run -feed "ISO 20022 1900 Business Area BizTerms" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 1900 Business Area BizTerms
-print "Run :" $(date +'%Y/%m/%d %T') " : " ISO 20022 Ad-hoc Logical Models
-mh-import run -feed "ISO 20022 Ad-hoc Logical Models" -progress -submit -approve
-print "End :" $(date +'%Y/%m/%d %T') " : " ISO 20022 Ad-hoc Logical Models
-print "DONE :" $(date +'%Y/%m/%d %T') 
+mh-import run -feed ISO_20022_0100_Technical_Groups_and_Technical_Systems -time -approve -progress
+mh-import run -feed ISO_20022_0150_BizTermTypes -time -approve -progress
+mh-import run -feed ISO_20022_0200_Domains -time -approve -progress
+mh-import run -feed ISO_20022_0300_Logical_Model -time -approve -progress
+mh-import run -feed ISO_20022_0350_Data_Types -time -approve -progress
+mh-import run -feed ISO_20022_0400_BizTerms -time -approve -progress
+mh-import run -feed ISO_20022_0410_BizTerms_LogAttr -time -approve -progress
+mh-import run -feed ISO_20022_0420_Actors -time -approve -progress
+mh-import run -feed ISO_20022_0600_Systems_and_Applications -time -approve -progress
+mh-import run -feed ISO_20022_0700_Business_Roles_Terms_and_Groups -time -approve -progress
+mh-import run -feed ISO_20022_0800_Business_Process_Systems_and_Applications -time -approve -progress
+mh-import run -feed ISO_20022_0900_Business_Transactions_Logical_Model -time -approve -progress
+mh-import run -feed ISO_20022_1000_DataSets -time -approve -progress
+mh-import run -feed ISO_20022_1100_Message_Objects -time -approve -progress
+mh-import run -feed ISO_20022_1150_Enhance_BizTerms_with_a_unique_Domain_where_applicable -time -approve -progress
+mh-import run -feed ISO_20022_1210_Message_Building_Blocks_Executable -time -approve -progress
+mh-import run -feed ISO_20022_1220_Message_Building_Blocks_InputOutputDatasets -time -approve -progress
+mh-import run -feed ISO_20022_1240_Message_Building_Blocks_Transform -time -approve -progress
+mh-import run -feed ISO_20022_1250_Message_Building_Blocks_Transform_DataElem -time -approve -progress
+mh-import run -feed ISO_20022_1300_Transformations -time -approve -progress
+mh-import run -feed ISO_20022_1400_Business_Domains_Technical_Groups_and_Technical_Systems -time -approve -progress
+mh-import run -feed ISO_20022_1405_Business_Domains_BizTerm_Groups -time -approve -progress
+mh-import run -feed ISO_20022_1406_Business_Domains_BizTerm -time -approve -progress
+mh-import run -feed ISO_20022_1407_Business_Domains_BizTerm_Relationships -time -approve -progress
+mh-import run -feed ISO_20022_1410_Business_Domains_DataSets_and_DataElems -time -approve -progress
+mh-import run -feed ISO_20022_1420_Business_Domains_Executable -time -approve -progress
+mh-import run -feed ISO_20022_1430_Business_Domains_InputOutputDataSets -time -approve -progress
+mh-import run -feed ISO_20022_1440_Business_Domains_Transform -time -approve -progress
+mh-import run -feed ISO_20022_1450_Business_Domains_Transform_DataElem -time -approve -progress
+mh-import run -feed ISO_20022_1500_Tags_and_TagValue -time -approve -progress
+mh-import run -feed ISO_20022_1600_Tagged_Objects -time -approve -progress
+mh-import run -feed ISO_20022_1700_Golden_BizTerm_DataElem -time -approve -progress
+mh-import run -feed ISO_20022_1800_Business_Domains_Logical_Models -time -approve -progress
+mh-import run -feed ISO_20022_1900_Business_Area_BizTerms -time -approve -progress

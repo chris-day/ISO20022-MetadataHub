@@ -4,11 +4,6 @@ description: Standard MSLI ENRICH_OBJECT for LogAttr-1
 is_published: true
 
 disposition: 
-
   - context: LogAttr-1
-
     primary_disposition: ENRICH_OBJECT
-
-    if_enrichment_target_not_found: CREATE_UNOWNED
-
     field_ownership: NO

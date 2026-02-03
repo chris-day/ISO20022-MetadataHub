@@ -1,8 +1,7 @@
-Name: ISO 20022 1800 Business Domains Logical Models
-Description: ISO 20022 180 Business Domains Logical Models      ${MHUB_ENV_DATA_ROOT}/iso20022-BD-Log*.msli    iso20022-BD-LogModel.msli  iso20022-BD-LogSubjArea.msli  iso20022-BD-LogSubjAreaEntity.msli
+Name: ISO_20022_1800_Business_Domains_Logical_Models
+Description: ISO 20022 180 Business Domains Logical Models
 ImportRule: Standard MSLI Import
 ImportConnection: 
-Definition: ISO 20022 1800 Business Domains Logical Models
-INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/iso20022-BD-LogModel.msli  ${MHUB_ENV_DATA_ROOT}/iso20022-BD-LogSubjArea.msli  ${MHUB_ENV_DATA_ROOT}/iso20022-BD-LogSubjAreaEntity.msli
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-BD-LogModel.msli  ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-BD-LogSubjArea.msli  ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-BD-LogSubjAreaEntity.msli
 State: A
 
