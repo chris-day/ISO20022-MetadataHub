@@ -2,9 +2,9 @@
 
 This repository contains the Ab Initio Metadata>Hub ISO 20022 Release derived from the ISO 20022 eRepository.
 
-All information from the current eReppository and various PDF's is available to load.
+All information from the current eRepository and various PDFs is available for loading.
 
-You'll end up with a comprehensive set of metadata, with a fully populated Business Dictionary, Reference Data, Logical Models, System and Applications, Datasets and Mapping Specs.
+You'll end up with a comprehensive set of metadata, including a fully populated Business Dictionary, Reference Data, Logical Models, Systems and Applications, Datasets, and Mapping Specs.
 
 ## How to deploy
 
@@ -38,14 +38,14 @@ The use of the site parameter called MHUB_ENV_DATA_ROOT is for parameterisation 
 
 ### Run the feed import script
 
-Witin the run directory is a script called run-me.ksh that will load, submit and approve the feeds in the correct order.
+Within the run directory is a script called run-me.ksh that will load, submit and approve the feeds in the correct order.
 
 ### Of Note
 
-The first load will take a significant period of time. If you want something smaller then I'd suggest the SWIFT4Corporates repository.
+The first load will take a significant period of time. If you want something smaller, then I'd suggest the SWIFT4Corporates repository.
 
-The use of the BizTermType BDE (Business Data Element), if you haven't create this, then please do so.
+The use of the BizTermType BDE (Business Data Element), if you haven't created this, then please do so.
 
-## Like this ?
+## Like this?
 
 Please feel free to [make a donation](https://monzo.me/christopherday5/5.00?d=ISO%2020022)
