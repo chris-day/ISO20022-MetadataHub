@@ -1,0 +1,7 @@
+Name: ISO_20022_0150_BizTermTypes
+Description: ISO_20022_0150_BizTermTypes
+ImportRule: Standard Excel Import
+ImportConnection: 
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022BizTermType.xlsx
+State: A
+
