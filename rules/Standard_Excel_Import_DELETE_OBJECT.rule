@@ -1,0 +1,70 @@
+name: Standard Excel Import DELETE_OBJECT
+extractor: Excel
+description: Standard Excel Import DELETE_OBJECT
+is_published: true
+
+disposition: 
+  - context: Application-1
+    primary_disposition: DELETE_OBJECT
+  - context: BizTerm-1
+    primary_disposition: DELETE_OBJECT
+  - context: BizTermDataSet-1
+    primary_disposition: DELETE_OBJECT
+  - context: BizTermGroup-1
+    primary_disposition: DELETE_OBJECT
+  - context: BizTermLogEntity-1
+    primary_disposition: DELETE_OBJECT
+  - context: BizTermRelationship-1
+    primary_disposition: DELETE_OBJECT
+  - context: BizTermXref-1
+    primary_disposition: DELETE_OBJECT
+  - context: DataElem-1
+    primary_disposition: DELETE_OBJECT
+  - context: DataSet-1
+    primary_disposition: DELETE_OBJECT
+  - context: Domain-1
+    primary_disposition: DELETE_OBJECT
+  - context: DomainCodeSet-1
+    primary_disposition: DELETE_OBJECT
+  - context: DomainCodeValue-1
+    primary_disposition: DELETE_OBJECT
+  - context: Executable-1
+    primary_disposition: DELETE_OBJECT
+  - context: ExecutableInputDataSet-1
+    primary_disposition: DELETE_OBJECT
+  - context: ExecutableOutputDataSet-1
+    primary_disposition: DELETE_OBJECT
+  - context: LogAttr-1
+    primary_disposition: DELETE_OBJECT
+  - context: LogEntity-1
+    primary_disposition: DELETE_OBJECT
+  - context: LogKey-1
+    primary_disposition: DELETE_OBJECT
+  - context: LogKeyAttr-1
+    primary_disposition: DELETE_OBJECT
+  - context: LogKeyXref-1
+    primary_disposition: DELETE_OBJECT
+  - context: LogModel-1
+    primary_disposition: DELETE_OBJECT
+  - context: LogSubjArea-1
+    primary_disposition: DELETE_OBJECT
+  - context: LogSubjAreaEntity-1
+    primary_disposition: DELETE_OBJECT
+  - context: MasterValue-1
+    primary_disposition: DELETE_OBJECT
+  - context: System-1
+    primary_disposition: DELETE_OBJECT
+  - context: Tag-1
+    primary_disposition: DELETE_OBJECT
+  - context: TaggedObject-1
+    primary_disposition: DELETE_OBJECT
+  - context: TagValue-1
+    primary_disposition: DELETE_OBJECT
+  - context: TechGroup-1
+    primary_disposition: DELETE_OBJECT
+  - context: TechSystem-1
+    primary_disposition: DELETE_OBJECT
+  - context: Transform-1
+    primary_disposition: DELETE_OBJECT
+  - context: TransformDataElem-1
+    primary_disposition: DELETE_OBJECT

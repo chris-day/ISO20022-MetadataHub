@@ -1,0 +1,7 @@
+Name: ISO_20022_1400_Business_Domains_Technical_Groups_and_Technical_Systems
+Description: ISO 20022 140 Business Domains Technical Groups and Technical Systems
+ImportRule: Standard MSLI Import
+ImportConnection: 
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-BD-TechGroup.msli
+State: A
+

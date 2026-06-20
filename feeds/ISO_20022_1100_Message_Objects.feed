@@ -1,0 +1,7 @@
+Name: ISO_20022_1100_Message_Objects
+Description: ISO 20022 110 Message Objects
+ImportRule: Standard MSLI Import
+ImportConnection: 
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-Message*.msli
+State: A
+

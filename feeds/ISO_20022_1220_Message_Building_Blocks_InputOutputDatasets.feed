@@ -1,0 +1,7 @@
+Name: ISO_20022_1220_Message_Building_Blocks_InputOutputDatasets
+Description: ISO 20022 122 Message Building Blocks Input and Output Datasets
+ImportRule: Standard MSLI Import
+ImportConnection: 
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-08-ExecutableInputDataSet.msli ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022-08-ExecutableOutputDataSet.msli
+State: A
+

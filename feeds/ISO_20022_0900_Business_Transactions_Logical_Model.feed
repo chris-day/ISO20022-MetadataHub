@@ -1,0 +1,7 @@
+Name: ISO_20022_0900_Business_Transactions_Logical_Model
+Description: ISO 20022 090 Business Transactions Logical Model
+ImportRule: Standard Excel Import
+ImportConnection: 
+INPUT_FILE: ${MHUB_ENV_DATA_ROOT}/ISO20022/iso20022BusinessModelLogical-Division.xls
+State: A
+
